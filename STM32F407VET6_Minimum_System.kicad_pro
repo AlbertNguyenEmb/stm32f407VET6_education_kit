@@ -661,8 +661,13 @@
     "top_level_sheets": [
       {
         "filename": "STM32F407VET6_Minimum_System.kicad_sch",
-        "name": "STM32F407VET6_Minimum_System",
+        "name": "MCU_Core",
         "uuid": "a9865f00-468c-40ee-8db9-52e42d4e7080"
+      },
+      {
+        "filename": "power_management.kicad_sch",
+        "name": "Power_Management",
+        "uuid": "06205059-6c60-4eb1-a174-62b3e571f479"
       },
       {
         "filename": "onboard_debugger.kicad_sch",
@@ -681,6 +686,10 @@
     [
       "26c4a07f-ed19-488c-9a38-27aa14829dda",
       "Onboard_Debugger"
+    ],
+    [
+      "06205059-6c60-4eb1-a174-62b3e571f479",
+      "Power_Management"
     ]
   ],
   "text_variables": {},
