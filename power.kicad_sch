@@ -2439,6 +2439,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 105.41) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ddf41c-1b92-41ae-9aea-0d194575302a")
+	)
+	(wire
+		(pts
 			(xy 60.96 53.34) (xy 73.66 53.34)
 		)
 		(stroke
@@ -2947,16 +2957,6 @@
 		)
 		(uuid "6d985903-3bc7-4e8b-8180-68ec80442b07")
 	)
-	(label "+5V_SYS"
-		(at 125.73 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bd3a88c-4f9c-4dca-b925-a5fb0878df3d")
-	)
 	(label "PR1"
 		(at 64.77 113.03 0)
 		(effects
@@ -2976,16 +2976,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfc3b4f7-fe6c-48ae-a5eb-80f7d8a54178")
-	)
-	(label "+5V_SYS"
-		(at 162.56 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4146233-d430-49bf-9c9e-b2c4806f41b5")
 	)
 	(label "+5V_EXT"
 		(at 229.87 49.53 0)
@@ -3017,6 +3007,54 @@
 			(justify left bottom)
 		)
 		(uuid "fc724ca0-88ff-4227-b27a-740553be0959")
+	)
+	(global_label "+5V_SYS"
+		(shape input)
+		(at 125.73 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16527b1a-e3c3-4ed1-b8b0-b62794b831f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0609 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape input)
+		(at 168.91 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "223a3b8f-e65d-4af6-940c-9b84a3b7034a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5791 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "+5V_DBG_USB"
 		(shape input)
@@ -3519,7 +3557,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 111.76 64.77 90)
+		(at 111.76 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3537,7 +3575,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "8.2V"
@@ -3548,7 +3586,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4040,7 +4078,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100nF"
 			(at 214.63 107.442 90)
 			(show_name no)
 			(do_not_autoplace no)

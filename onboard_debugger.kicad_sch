@@ -1612,6 +1612,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3857,6 +4023,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 107.95) (xy 234.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b95750-100b-4e15-9340-cd6a035f671b")
+	)
+	(wire
+		(pts
 			(xy 223.52 29.21) (xy 223.52 35.56)
 		)
 		(stroke
@@ -3877,6 +4053,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 72.39) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05fa0ab5-40cd-4a3c-a3bf-33788da9826b")
+	)
+	(wire
+		(pts
+			(xy 52.07 54.61) (xy 55.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067c7174-d875-49d5-b822-824fb614c30b")
+	)
+	(wire
+		(pts
 			(xy 162.56 34.29) (xy 165.1 34.29)
 		)
 		(stroke
@@ -3887,13 +4083,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 49.53) (xy 62.23 49.53)
+			(xy 52.07 49.53) (xy 55.88 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06e5ea00-8709-4cd3-9251-9596ee23e3bc")
+		(uuid "09332e15-7650-45ac-a372-01724198c8e6")
 	)
 	(wire
 		(pts
@@ -3937,26 +4133,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 74.93) (xy 242.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f10138d-4247-49a3-b213-aa92586cf1ad")
-	)
-	(wire
-		(pts
-			(xy 100.33 46.99) (xy 109.22 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101f0e86-3bdb-4492-b9c4-fe6851de27bd")
-	)
-	(wire
-		(pts
 			(xy 210.82 48.26) (xy 210.82 43.18)
 		)
 		(stroke
@@ -3964,6 +4140,16 @@
 			(type default)
 		)
 		(uuid "11fedfe7-0112-48bc-b938-7e4501445814")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 234.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a77958-7a10-45a3-8db2-5fac95efb89d")
 	)
 	(wire
 		(pts
@@ -3997,16 +4183,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 72.39) (xy 242.57 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188ae77f-b03e-452c-941f-204562949099")
-	)
-	(wire
-		(pts
 			(xy 241.3 67.31) (xy 241.3 69.85)
 		)
 		(stroke
@@ -4034,6 +4210,16 @@
 			(type default)
 		)
 		(uuid "2591a5ce-9842-4378-85e9-f0f2355628ec")
+	)
+	(wire
+		(pts
+			(xy 52.07 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2600d4a1-ba25-4fb3-8b10-9b4fc018a6cd")
 	)
 	(wire
 		(pts
@@ -4074,16 +4260,6 @@
 			(type default)
 		)
 		(uuid "2f1387c8-d2aa-4c4f-bdc0-6f3398d6a6d3")
-	)
-	(wire
-		(pts
-			(xy 52.07 46.99) (xy 62.23 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3043f29f-7e7f-4ea6-bc9a-98239395baec")
 	)
 	(wire
 		(pts
@@ -4164,16 +4340,6 @@
 			(type default)
 		)
 		(uuid "42d5fab4-79c6-4b36-a6b5-31a2978e17ab")
-	)
-	(wire
-		(pts
-			(xy 52.07 54.61) (xy 62.23 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432909d1-71b7-4f8c-8623-53c50c76ed26")
 	)
 	(wire
 		(pts
@@ -4277,6 +4443,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 74.93) (xy 245.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6504bc86-d288-49df-ab72-2f70eb7da99d")
+	)
+	(wire
+		(pts
 			(xy 165.1 121.92) (xy 165.1 124.46)
 		)
 		(stroke
@@ -4294,6 +4470,16 @@
 			(type default)
 		)
 		(uuid "67543296-9f94-4017-abeb-5264de3f4e87")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 109.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a381753-457a-4542-9271-0801ea503284")
 	)
 	(wire
 		(pts
@@ -4367,6 +4553,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 97.79) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fdd101-909f-4fc1-9d7e-dc7eab910c13")
+	)
+	(wire
+		(pts
 			(xy 160.02 34.29) (xy 162.56 34.29)
 		)
 		(stroke
@@ -4394,6 +4590,16 @@
 			(type default)
 		)
 		(uuid "88724a27-8e9f-48f1-a023-932e76e64a88")
+	)
+	(wire
+		(pts
+			(xy 245.11 97.79) (xy 255.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae63bd1-b8e4-4541-b6ab-3628daecadf3")
 	)
 	(wire
 		(pts
@@ -4587,6 +4793,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 116.84) (xy 255.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0326146-bed2-4ed8-85f0-4f4b0ead4ddf")
+	)
+	(wire
+		(pts
 			(xy 59.69 113.03) (xy 76.2 113.03)
 		)
 		(stroke
@@ -4614,6 +4830,16 @@
 			(type default)
 		)
 		(uuid "b7232241-3b06-4b81-9409-f2c0f0078f13")
+	)
+	(wire
+		(pts
+			(xy 52.07 46.99) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c12049-655e-48eb-9745-26e8b9f93e0e")
 	)
 	(wire
 		(pts
@@ -4647,13 +4873,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 77.47) (xy 242.57 77.47)
+			(xy 236.22 77.47) (xy 245.11 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf90fee5-46bf-447b-9b7c-8f761fd6322c")
+		(uuid "c4d9f507-4139-4c3f-af1d-c696e816a0c6")
 	)
 	(wire
 		(pts
@@ -4697,16 +4923,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 109.22 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03386e6-713a-4d88-a1e8-6dc53a0634d8")
-	)
-	(wire
-		(pts
 			(xy 196.85 29.21) (xy 210.82 29.21)
 		)
 		(stroke
@@ -4724,6 +4940,16 @@
 			(type default)
 		)
 		(uuid "d270619c-e116-4d3a-bb67-16c8a8a93380")
+	)
+	(wire
+		(pts
+			(xy 245.11 107.95) (xy 255.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bf1c20-0454-4c56-aab5-3f9ac1459384")
 	)
 	(wire
 		(pts
@@ -4847,16 +5073,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 52.07) (xy 62.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd7d122-5fd1-4147-9c53-c2a733a489df")
-	)
-	(wire
-		(pts
 			(xy 39.37 132.08) (xy 39.37 138.43)
 		)
 		(stroke
@@ -4935,6 +5151,16 @@
 		)
 		(uuid "fa2df8d3-ce54-45d8-8e17-5ff077cbbddc")
 	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 109.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbef4b1f-51ff-42f3-ac53-4f8e1bb82b94")
+	)
 	(label "+3V3_DBG"
 		(at 223.52 25.4 0)
 		(effects
@@ -4945,15 +5171,15 @@
 		)
 		(uuid "07e83b76-ef02-41d9-912e-6d7970f9c5f2")
 	)
-	(label "+5V_SYS"
-		(at 27.94 95.25 0)
+	(label "DBG_NRST"
+		(at 245.11 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3737694f-e48b-4bf1-8477-e9ff3ea36768")
+		(uuid "3bfadcd2-f9fd-480a-8fd3-9109334aee27")
 	)
 	(label "ESD_P"
 		(at 201.93 68.58 0)
@@ -4985,36 +5211,6 @@
 		)
 		(uuid "5488adf5-286c-41bc-9c90-4d7b66e43edb")
 	)
-	(label "USB_D_N"
-		(at 100.33 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5594a7bf-4167-46a2-abd7-8c37ac7c0151")
-	)
-	(label "USB_D_N"
-		(at 55.88 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55fc3339-1c28-4a5e-9862-aa85061f07e9")
-	)
-	(label "USB_D_P"
-		(at 55.88 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62b4db55-ee49-45a4-91ef-ce09c3dbfe35")
-	)
 	(label "SWDIO"
 		(at 186.69 81.28 0)
 		(effects
@@ -5034,6 +5230,26 @@
 			(justify left bottom)
 		)
 		(uuid "69c640a2-7230-4681-b70e-c36fbb8268f6")
+	)
+	(label "DBG_NRST"
+		(at 223.52 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70580c41-c605-46a6-8541-e19fb755f50f")
+	)
+	(label "DBG_SWDIO"
+		(at 223.52 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79b9b2aa-b4f0-4278-a949-f7ec084a37b5")
 	)
 	(label "SWCLK"
 		(at 186.69 83.82 0)
@@ -5055,16 +5271,6 @@
 		)
 		(uuid "7b34f54c-ceae-40c6-91fa-88398a7ea343")
 	)
-	(label "USB_D_N"
-		(at 55.88 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c50d8e8-b09f-4741-a757-b2f49ad4ccbe")
-	)
 	(label "VBUS_DBG_RAW"
 		(at 114.3 34.29 0)
 		(effects
@@ -5075,6 +5281,26 @@
 		)
 		(uuid "8adbdb77-7b54-49a0-9e8a-fdab14591c5f")
 	)
+	(label "DBG_SWDIO"
+		(at 245.11 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90ca0385-db48-4150-950e-79bc39cb22eb")
+	)
+	(label "DBG_SWCLK"
+		(at 223.52 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94117239-92a8-4573-8a39-212798767ae8")
+	)
 	(label "ESD_P"
 		(at 127 46.99 0)
 		(effects
@@ -5084,6 +5310,16 @@
 			(justify left bottom)
 		)
 		(uuid "979e5b9b-9f6a-445f-a27f-596298bfac95")
+	)
+	(label "DBG_SWCLK"
+		(at 245.11 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a518a137-df9c-48de-bf93-0441e8c642c5")
 	)
 	(label "PH0_DBG"
 		(at 29.21 132.08 0)
@@ -5115,16 +5351,6 @@
 		)
 		(uuid "b559da15-81b4-4e44-bec9-c804e12f7a28")
 	)
-	(label "USB_D_P"
-		(at 100.33 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8780511-70dd-49a1-93e7-8f3f2e3ab64d")
-	)
 	(label "+3V3_DBG"
 		(at 165.1 31.75 0)
 		(effects
@@ -5134,16 +5360,6 @@
 			(justify left bottom)
 		)
 		(uuid "be533594-b995-496e-9ea0-a8c175812f23")
-	)
-	(label "USB_D_P"
-		(at 55.88 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c22178dd-2d0a-40cb-aaba-f3989f2d59c1")
 	)
 	(label "ESD_N"
 		(at 127 49.53 0)
@@ -5195,9 +5411,9 @@
 		)
 		(uuid "f40d6348-74c5-4166-b3f6-62a52b70f5a6")
 	)
-	(global_label "DBG_SWDIO"
+	(global_label "TARGET_SWDIO"
 		(shape bidirectional)
-		(at 242.57 72.39 0)
+		(at 255.27 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5207,7 +5423,7 @@
 		)
 		(uuid "1fd2dfb4-a824-41ee-931a-a8a9f4ff0d29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.6731 72.39 0)
+			(at 272.9131 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,6 +5459,78 @@
 			)
 		)
 	)
+	(global_label "+5V_SYS"
+		(shape input)
+		(at 27.94 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b134c64-b532-46d7-9478-0b42b8427bf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.6091 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_D_P"
+		(shape input)
+		(at 55.88 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41d9d9df-efa0-4440-9afa-67720e13d375")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1504 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D_N"
+		(shape input)
+		(at 105.41 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cdd70af-8660-45dc-bb5d-60753bfbaf74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0791 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DBG_T_NRST"
 		(shape bidirectional)
 		(at 143.51 99.06 180)
@@ -5267,9 +5555,9 @@
 			)
 		)
 	)
-	(global_label "DBG_SWCLK"
+	(global_label "TARGET_SWCLK"
 		(shape bidirectional)
-		(at 242.57 74.93 0)
+		(at 255.27 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5279,7 +5567,79 @@
 		)
 		(uuid "62b5fa02-cee0-4fbb-8449-5897262d03a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.1569 74.93 0)
+			(at 273.2759 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D_P"
+		(shape input)
+		(at 105.41 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a83f9b6-31b1-418d-a18b-d23f9376a6f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.1396 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_D_N"
+		(shape input)
+		(at 55.88 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8eb3fe98-84ee-49c4-be26-88dd633b17a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.2109 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D_N"
+		(shape input)
+		(at 55.88 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "979ee181-8511-411a-b077-7b9d1363f792")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.2109 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5339,9 +5699,33 @@
 			)
 		)
 	)
-	(global_label "DBG_T_NRST"
+	(global_label "USB_D_P"
+		(shape input)
+		(at 55.88 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1fc2203-6505-41da-ab03-cb26ffb5dcd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1504 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TARGET_NRST"
 		(shape bidirectional)
-		(at 242.57 77.47 0)
+		(at 255.27 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5351,7 +5735,7 @@
 		)
 		(uuid "e3cafcd1-d65b-4070-8b9b-501484d021a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.3103 77.47 0)
+			(at 271.8245 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +7192,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "844115eb-2945-4299-b958-4cad6b1714bf")
 		(property "Reference" "#PWR029"
 			(at 241.3 71.12 0)
@@ -6821,14 +7204,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 241.3 62.23 0)
+		(property "Value" "+3V3"
+			(at 241.3 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7269,6 +7653,86 @@
 			(project "STM32F407VET6_Minimum_System"
 				(path "/26c4a07f-ed19-488c-9a38-27aa14829dda"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 240.03 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e67776e-8f72-469a-8228-c29e863da466")
+		(property "Reference" "JP3"
+			(at 240.03 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 240.03 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 240.03 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1664f183-948e-4f31-bd1a-87bc17f88c31")
+		)
+		(pin "2"
+			(uuid "564f3189-eb4b-4a86-840a-edcd4576f347")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/26c4a07f-ed19-488c-9a38-27aa14829dda"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -7837,6 +8301,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 240.03 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac2d71d-3418-43e5-b3db-9105e39ef0e6")
+		(property "Reference" "JP2"
+			(at 240.03 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 240.03 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 240.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c41aa2f4-1efe-4c36-818f-ce1f163903bc")
+		)
+		(pin "2"
+			(uuid "b2ebda82-2ade-4eea-92c2-a128d9004436")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/26c4a07f-ed19-488c-9a38-27aa14829dda"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 36.83 49.53 0)
 		(unit 1)
@@ -8360,6 +8904,86 @@
 			(project "STM32F407VET6_Minimum_System"
 				(path "/26c4a07f-ed19-488c-9a38-27aa14829dda"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 240.03 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeba5068-7c6e-4d9c-a96e-a20f266700c8")
+		(property "Reference" "JP1"
+			(at 240.03 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 240.03 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 240.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8e000f3-ad62-4be9-9b07-493fbde7c743")
+		)
+		(pin "2"
+			(uuid "0431b6bc-a64d-4623-8e98-817448fa2c88")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/26c4a07f-ed19-488c-9a38-27aa14829dda"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
