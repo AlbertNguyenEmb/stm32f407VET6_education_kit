@@ -668,9 +668,14 @@
         "filename": "onboard_debugger.kicad_sch",
         "name": "Onboard_Debugger",
         "uuid": "26c4a07f-ed19-488c-9a38-27aa14829dda"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power_Supply",
+        "uuid": "a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
       }
     ],
-    "used_designators": "#PWR1-32,C1-29,D1-2,F1-2,FB1-2,F_DBG_USB1,J1-5,Q1,R1-7,SW1-3,U1-5,Y1-2",
+    "used_designators": "#PWR1-39,C1-35,D1-2,F1-2,FB1-2,F_DBG_USB1,J1-5,L1-2,Q1,R1-9,SW1-3,U1-10,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -681,6 +686,10 @@
     [
       "26c4a07f-ed19-488c-9a38-27aa14829dda",
       "Onboard_Debugger"
+    ],
+    [
+      "a1a27ae1-62b8-4ba2-b58a-69d83d7aab63",
+      "Power_Supply"
     ]
   ],
   "text_variables": {},
