@@ -666,21 +666,21 @@
       },
       {
         "filename": "onboard_debugger.kicad_sch",
-        "name": "onboard_debugger",
+        "name": "Onboard_Debugger",
         "uuid": "26c4a07f-ed19-488c-9a38-27aa14829dda"
       },
       {
         "filename": "power.kicad_sch",
-        "name": "power_supply",
+        "name": "Power_Supply",
         "uuid": "a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
       },
       {
-        "filename": "basic_io.kicad_sch",
-        "name": "basic_io",
-        "uuid": "47aad607-e186-4e6e-a0c1-2ae1e2a2d3f0"
+        "filename": "sensors.kicad_sch",
+        "name": "sensors",
+        "uuid": "afdf5ee7-bdec-40c2-80e2-960e8b2bfe21"
       }
     ],
-    "used_designators": "#PWR1-39,C1-35,D1-5,F1-2,FB1-2,F_DBG_USB1,J1-5,JP1-7,L1-2,Q1,R1-14,SW1-3,U1-10,Y1-2",
+    "used_designators": "#PWR1-52,C1-35,C_DHT1,C_LIGHT1,D1-2,F1-2,FB1-2,F_DBG_USB1,J1-5,JP1-3,L1-2,Q1,R1-12,SW1-3,U1-10,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -690,15 +690,15 @@
     ],
     [
       "26c4a07f-ed19-488c-9a38-27aa14829dda",
-      "onboard_debugger"
+      "Onboard_Debugger"
     ],
     [
       "a1a27ae1-62b8-4ba2-b58a-69d83d7aab63",
-      "power_supply"
+      "Power_Supply"
     ],
     [
-      "47aad607-e186-4e6e-a0c1-2ae1e2a2d3f0",
-      "basic_io"
+      "afdf5ee7-bdec-40c2-80e2-960e8b2bfe21",
+      "sensors"
     ]
   ],
   "text_variables": {},

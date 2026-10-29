@@ -2246,18 +2246,6 @@
 		(uuid "6128429d-b009-404f-b9d8-c02758d85934")
 	)
 	(junction
-		(at 111.76 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67b1393a-637c-44d2-ab60-516d701345ea")
-	)
-	(junction
-		(at 111.76 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78c73c60-2d46-4404-b043-b975bf3d000e")
-	)
-	(junction
 		(at 168.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2282,10 +2270,22 @@
 		(uuid "a8b63b8f-d068-4997-b493-16b70a47e559")
 	)
 	(junction
+		(at 82.55 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c40548-eed4-4954-ae81-432092763333")
+	)
+	(junction
 		(at 233.68 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cabe9bea-dad1-44df-8e60-0bb7c75904fa")
+	)
+	(junction
+		(at 99.06 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6596671-5c27-4a7b-9a4e-f55a86139b40")
 	)
 	(junction
 		(at 50.8 113.03)
@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 93.98 53.34)
+			(xy 81.28 53.34) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2409,16 +2409,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 53.34) (xy 111.76 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377dd99f-cf81-42f3-b794-21f43b40840e")
-	)
-	(wire
-		(pts
 			(xy 50.8 123.19) (xy 50.8 129.54)
 		)
 		(stroke
@@ -2456,16 +2446,6 @@
 			(type default)
 		)
 		(uuid "48873ef8-8679-4631-bb1f-1b656b404cec")
-	)
-	(wire
-		(pts
-			(xy 111.76 71.12) (xy 111.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49675a2c-0faf-4ca5-b350-f8a5de7f2a9b")
 	)
 	(wire
 		(pts
@@ -2549,6 +2529,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 62.23) (xy 86.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644e2dfd-dab1-4d19-9a2d-0b2f61c98d34")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fe3d48-c875-428e-a187-8a20c691ff5d")
+	)
+	(wire
+		(pts
 			(xy 194.31 60.96) (xy 223.52 60.96)
 		)
 		(stroke
@@ -2569,13 +2569,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 53.34) (xy 116.84 53.34)
+			(xy 104.14 53.34) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7fc83806-2109-45b1-867f-1a860822e273")
+	)
+	(wire
+		(pts
+			(xy 99.06 62.23) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833240ee-1230-4713-956e-27d7f6d7c953")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 93.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e3c56b-559a-4191-812d-790c6a6bcc4e")
 	)
 	(wire
 		(pts
@@ -2606,6 +2626,16 @@
 			(type default)
 		)
 		(uuid "8c7414aa-885b-412b-b50c-85d91d468bfc")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909e3c30-6b2b-45e4-b162-5cce219a1072")
 	)
 	(wire
 		(pts
@@ -2649,26 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9858f36f-2554-4372-a311-e317de515cd2")
-	)
-	(wire
-		(pts
-			(xy 111.76 71.12) (xy 111.76 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f8a341-e45d-4dbc-bf38-0277c64e606c")
-	)
-	(wire
-		(pts
 			(xy 210.82 58.42) (xy 210.82 49.53)
 		)
 		(stroke
@@ -2709,6 +2719,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 62.23) (xy 99.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c2fdde-705f-4c5d-8b32-2748d46b2be4")
+	)
+	(wire
+		(pts
 			(xy 153.67 55.88) (xy 153.67 59.69)
 		)
 		(stroke
@@ -2726,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "b65a0797-e124-41e5-9f3a-b958e8e3a0b1")
-	)
-	(wire
-		(pts
-			(xy 104.14 53.34) (xy 111.76 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae4cb7d-56db-4d95-bcd8-30be3cb129b0")
 	)
 	(wire
 		(pts
@@ -2796,6 +2806,16 @@
 			(type default)
 		)
 		(uuid "cb0bd7ed-22d0-474c-b2fc-4a038d79e2d1")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 99.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17c188d-960f-4bf0-863b-2251d0a61b49")
 	)
 	(wire
 		(pts
@@ -2916,16 +2936,6 @@
 			(type default)
 		)
 		(uuid "f57a83db-6dec-4db8-8dde-fe6aa0b92ed0")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 111.76 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7eff359-daf8-486f-92f7-38dd740c0264")
 	)
 	(label "PR1"
 		(at 82.55 113.03 0)
@@ -3557,7 +3567,8 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 111.76 64.77 270)
+		(at 90.17 62.23 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3565,32 +3576,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "302f89c9-d894-4fe7-9f18-45fdbbda4709")
 		(property "Reference" "D1"
-			(at 114.3 63.4999 90)
+			(at 90.17 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "8.2V"
-			(at 114.3 66.0399 90)
+			(at 90.17 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 64.77 0)
+			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 64.77 0)
+			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3620,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 111.76 64.77 0)
+			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,6 +4139,87 @@
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66a0b761-b367-451f-b6a0-a680bf4dbc37")
+		(property "Reference" "R2"
+			(at 101.6 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 101.6 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1620b1c1-fbc6-40a1-b38e-2e1c0c9915e2")
+		)
+		(pin "2"
+			(uuid "da67efef-f20e-4d39-8d64-fb35376326bb")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4783,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 72.39 0)
+		(at 99.06 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4704,7 +4793,7 @@
 		(dnp no)
 		(uuid "98ffac0e-7d9c-4969-af7d-c72c23423add")
 		(property "Reference" "#PWR06"
-			(at 111.76 78.74 0)
+			(at 99.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.332 75.184 0)
+			(at 103.632 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4725,7 +4814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 72.39 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 72.39 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 72.39 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,88 +4933,6 @@
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b31b59a6-6656-47b2-86a5-e68209b7c34c")
-		(property "Reference" "R2"
-			(at 101.6 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 101.6 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.282 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94e213ab-19d5-4486-a906-f62a9df696b5")
-		)
-		(pin "2"
-			(uuid "b3c987b8-6553-47a2-accc-407435c8fcd4")
-		)
-		(instances
-			(project "STM32F407VET6_Minimum_System"
-				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5107,7 +5114,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 99.06 55.88 90)
+		(at 99.06 55.88 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5137,7 +5145,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 100.965 50.8 0)
+			(at 97.155 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,7 +5158,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 102.87 50.8 0)
+			(at 95.25 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
