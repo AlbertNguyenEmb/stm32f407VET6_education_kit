@@ -2246,6 +2246,18 @@
 		(uuid "6128429d-b009-404f-b9d8-c02758d85934")
 	)
 	(junction
+		(at 111.76 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67b1393a-637c-44d2-ab60-516d701345ea")
+	)
+	(junction
+		(at 111.76 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c73c60-2d46-4404-b043-b975bf3d000e")
+	)
+	(junction
 		(at 168.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2270,22 +2282,10 @@
 		(uuid "a8b63b8f-d068-4997-b493-16b70a47e559")
 	)
 	(junction
-		(at 82.55 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1c40548-eed4-4954-ae81-432092763333")
-	)
-	(junction
 		(at 233.68 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cabe9bea-dad1-44df-8e60-0bb7c75904fa")
-	)
-	(junction
-		(at 99.06 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6596671-5c27-4a7b-9a4e-f55a86139b40")
 	)
 	(junction
 		(at 50.8 113.03)
@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 82.55 53.34)
+			(xy 81.28 53.34) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2409,6 +2409,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 53.34) (xy 111.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377dd99f-cf81-42f3-b794-21f43b40840e")
+	)
+	(wire
+		(pts
 			(xy 50.8 123.19) (xy 50.8 129.54)
 		)
 		(stroke
@@ -2446,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "48873ef8-8679-4631-bb1f-1b656b404cec")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49675a2c-0faf-4ca5-b350-f8a5de7f2a9b")
 	)
 	(wire
 		(pts
@@ -2529,26 +2549,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 62.23) (xy 86.36 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "644e2dfd-dab1-4d19-9a2d-0b2f61c98d34")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75fe3d48-c875-428e-a187-8a20c691ff5d")
-	)
-	(wire
-		(pts
 			(xy 194.31 60.96) (xy 223.52 60.96)
 		)
 		(stroke
@@ -2569,33 +2569,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 116.84 53.34)
+			(xy 111.76 53.34) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7fc83806-2109-45b1-867f-1a860822e273")
-	)
-	(wire
-		(pts
-			(xy 99.06 62.23) (xy 99.06 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833240ee-1230-4713-956e-27d7f6d7c953")
-	)
-	(wire
-		(pts
-			(xy 82.55 53.34) (xy 93.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e3c56b-559a-4191-812d-790c6a6bcc4e")
 	)
 	(wire
 		(pts
@@ -2626,16 +2606,6 @@
 			(type default)
 		)
 		(uuid "8c7414aa-885b-412b-b50c-85d91d468bfc")
-	)
-	(wire
-		(pts
-			(xy 82.55 53.34) (xy 82.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909e3c30-6b2b-45e4-b162-5cce219a1072")
 	)
 	(wire
 		(pts
@@ -2679,6 +2649,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 68.58) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9858f36f-2554-4372-a311-e317de515cd2")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f8a341-e45d-4dbc-bf38-0277c64e606c")
+	)
+	(wire
+		(pts
 			(xy 210.82 58.42) (xy 210.82 49.53)
 		)
 		(stroke
@@ -2719,16 +2709,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 99.06 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2c2fdde-705f-4c5d-8b32-2748d46b2be4")
-	)
-	(wire
-		(pts
 			(xy 153.67 55.88) (xy 153.67 59.69)
 		)
 		(stroke
@@ -2746,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "b65a0797-e124-41e5-9f3a-b958e8e3a0b1")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae4cb7d-56db-4d95-bcd8-30be3cb129b0")
 	)
 	(wire
 		(pts
@@ -2806,16 +2796,6 @@
 			(type default)
 		)
 		(uuid "cb0bd7ed-22d0-474c-b2fc-4a038d79e2d1")
-	)
-	(wire
-		(pts
-			(xy 99.06 60.96) (xy 99.06 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17c188d-960f-4bf0-863b-2251d0a61b49")
 	)
 	(wire
 		(pts
@@ -2936,6 +2916,16 @@
 			(type default)
 		)
 		(uuid "f57a83db-6dec-4db8-8dde-fe6aa0b92ed0")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7eff359-daf8-486f-92f7-38dd740c0264")
 	)
 	(label "PR1"
 		(at 82.55 113.03 0)
@@ -3183,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0523161d-3536-4653-a87b-1069329475e6")
-		(property "Reference" "C35"
+		(property "Reference" "C27"
 			(at 153.67 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,7 +3237,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "C35")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3265,7 +3255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "062962e0-01ca-4cc8-a6f8-2a0897b17873")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3325,7 +3315,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3343,7 +3333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1794aeca-b03e-48b2-a045-17fded6725f9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 248.92 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3403,7 +3393,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3421,7 +3411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e46594-50fa-4e54-8461-ced98ceaabf4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 233.68 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3481,7 +3471,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3499,7 +3489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a8d01a-8cfd-4acd-9191-1218a40cb302")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR031"
 			(at 101.6 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3559,7 +3549,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR034")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3567,8 +3557,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 90.17 62.23 0)
-		(mirror x)
+		(at 111.76 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3576,29 +3565,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "302f89c9-d894-4fe7-9f18-45fdbbda4709")
 		(property "Reference" "D1"
-			(at 90.17 55.88 0)
+			(at 114.3 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "8.2V"
-			(at 90.17 58.42 0)
+			(at 114.3 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 62.23 0)
+			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3609,7 +3601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 62.23 0)
+			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 90.17 62.23 0)
+			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "315fe44f-89d5-4a42-86c7-e808957ec0d9")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 184.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3717,7 +3709,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3735,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33216ef3-f817-4883-88c3-c21b82b1a004")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 53.34 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3799,7 +3791,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3817,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be78701-3073-4470-9abf-fb4293d525b2")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 53.34 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3873,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5055b901-bd93-44c3-a72d-adf7616b82d2")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 101.6 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4051,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52c0cc8c-2f41-4d80-801a-1d5dbc9427c5")
-		(property "Reference" "C33"
+		(property "Reference" "C30"
 			(at 214.63 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,88 +4130,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66a0b761-b367-451f-b6a0-a680bf4dbc37")
-		(property "Reference" "R2"
-			(at 101.6 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 101.6 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.282 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1620b1c1-fbc6-40a1-b38e-2e1c0c9915e2")
-		)
-		(pin "2"
-			(uuid "da67efef-f20e-4d39-8d64-fb35376326bb")
-		)
-		(instances
-			(project "STM32F407VET6_Minimum_System"
-				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "R2")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6859c137-dbc7-474d-a784-c18c90bca146")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR030"
 			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4297,7 +4208,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR04")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6998f4ff-e9db-4feb-b939-0afe7adba3d8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 153.67 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +4286,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7101d9e0-09b5-4ed6-96c4-6ebda8c35e53")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR029"
 			(at 50.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4453,7 +4364,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR035")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8141ffdf-2e3b-48fa-8ab0-d479d5979147")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 237.49 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4446,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -4553,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f3f3a06-cac1-4ac4-ab34-693e856d0251")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR028"
 			(at 50.8 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4613,7 +4524,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR036")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4631,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90074e56-323e-4ae7-8639-5a8f1882df0d")
-		(property "Reference" "C31"
+		(property "Reference" "C28"
 			(at 157.48 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4695,7 +4606,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "C31")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4694,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 73.66 0)
+		(at 111.76 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4792,8 +4703,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98ffac0e-7d9c-4969-af7d-c72c23423add")
-		(property "Reference" "#PWR06"
-			(at 99.06 80.01 0)
+		(property "Reference" "#PWR032"
+			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.632 76.454 0)
+			(at 116.332 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4814,7 +4725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 73.66 0)
+			(at 111.76 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4825,7 +4736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 73.66 0)
+			(at 111.76 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 73.66 0)
+			(at 111.76 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,7 +4763,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR06")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4870,7 +4781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22a44f5-01be-4880-8dd1-9f071a77e6fd")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 53.34 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,7 +4843,89 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "J1")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31b59a6-6656-47b2-86a5-e68209b7c34c")
+		(property "Reference" "R9"
+			(at 101.6 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 101.6 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94e213ab-19d5-4486-a906-f62a9df696b5")
+		)
+		(pin "2"
+			(uuid "b3c987b8-6553-47a2-accc-407435c8fcd4")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4950,7 +4943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e2690c-ae56-4167-8217-af01ad3933de")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 184.15 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +5017,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5042,7 +5035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcef3cca-fec5-431a-af10-8ffc6e911de1")
-		(property "Reference" "C34"
+		(property "Reference" "C32"
 			(at 252.73 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,7 +5099,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "C34")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -5114,8 +5107,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 99.06 55.88 270)
-		(mirror x)
+		(at 99.06 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5145,7 +5137,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 97.155 50.8 0)
+			(at 100.965 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5150,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 95.25 50.8 0)
+			(at 102.87 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +5202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36c4b17-fa34-4e4f-95f6-36eb553de160")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 149.86 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5270,7 +5262,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e95791b0-be2e-4977-8ae8-d6cfb40ebcae")
-		(property "Reference" "U10"
+		(property "Reference" "U7"
 			(at 189.23 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5354,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faa9b334-124e-4f80-a11c-ed5833d40aa2")
-		(property "Reference" "C32"
+		(property "Reference" "C29"
 			(at 207.01 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5433,7 @@
 		(instances
 			(project "STM32F407VET6_Minimum_System"
 				(path "/a1a27ae1-62b8-4ba2-b58a-69d83d7aab63"
-					(reference "C32")
+					(reference "C29")
 					(unit 1)
 				)
 			)
