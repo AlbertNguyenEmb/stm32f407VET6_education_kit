@@ -693,9 +693,14 @@
         "filename": "can_communication.kicad_sch",
         "name": "CAN_Communication",
         "uuid": "9b7b83a5-998f-466e-85e1-db9efe9706e2"
+      },
+      {
+        "filename": "analog_timer.kicad_sch",
+        "name": "analog_timer",
+        "uuid": "5507e757-805f-4e41-b1f3-9c79386287c8"
       }
     ],
-    "used_designators": "#PWR1-92,BZ1,C1-38,C_DHT1,C_LIGHT1,C_OLED1,D1-7,F1-2,FB1-2,F_DBG_USB1,J1-7,JP1-15,L1-2,Q1-3,R1-32,SW1-5,U1-13,Y1-3",
+    "used_designators": "#PWR1-108,BZ1,C1-42,C_DHT1,C_LIGHT1,C_OLED1,D1-7,F1-2,FB1-2,F_DBG_USB1,J1-12,JP1-15,L1-2,Q1-3,R1-42,SW1-5,U1-13,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -726,6 +731,10 @@
     [
       "9b7b83a5-998f-466e-85e1-db9efe9706e2",
       "CAN_Communication"
+    ],
+    [
+      "5507e757-805f-4e41-b1f3-9c79386287c8",
+      "analog_timer"
     ]
   ],
   "text_variables": {},

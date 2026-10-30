@@ -5132,7 +5132,7 @@
 		(uuid "fbef4b1f-51ff-42f3-ac53-4f8e1bb82b94")
 	)
 	(label "TGT_SWCLK_DRV"
-		(at 143.51 99.06 180)
+		(at 143.51 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 		(uuid "07e83b76-ef02-41d9-912e-6d7970f9c5f2")
 	)
 	(label "TGT_SWDIO_DRV"
-		(at 143.51 96.52 180)
+		(at 143.51 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5262,7 +5262,7 @@
 		(uuid "7b34f54c-ceae-40c6-91fa-88398a7ea343")
 	)
 	(label "TGT_NRST_DRV"
-		(at 143.51 93.98 180)
+		(at 143.51 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7132,7 +7132,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3_DBG"
 			(at 236.22 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
