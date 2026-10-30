@@ -703,9 +703,14 @@
         "filename": "precision_adc.kicad_sch",
         "name": "precision_ADC",
         "uuid": "8b4d1392-c809-45db-838e-c8c0a98570bf"
+      },
+      {
+        "filename": "ethernet.kicad_sch",
+        "name": "ethernet",
+        "uuid": "ee92e84a-722c-443a-8d04-d193c9464e89"
       }
     ],
-    "used_designators": "#PWR1-118,BZ1,C1-47,C_DHT1,C_LIGHT1,C_OLED1,D1-7,F1-2,FB1-2,F_DBG_USB1,J1-13,JP1-15,L1-2,Q1-3,R1-45,SW1-5,U1-14,Y1-3",
+    "used_designators": "#PWR1-134,BZ1,C1-55,C_DHT1,C_LIGHT1,C_OLED1,D1-11,F1-2,FB1-2,F_DBG_USB1,J1-14,JP1-15,L1-2,Q1-3,R1-52,SW1-5,U1-15,Y1-4",
     "variants": []
   },
   "sheets": [
@@ -744,6 +749,10 @@
     [
       "8b4d1392-c809-45db-838e-c8c0a98570bf",
       "precision_ADC"
+    ],
+    [
+      "ee92e84a-722c-443a-8d04-d193c9464e89",
+      "ethernet"
     ]
   ],
   "text_variables": {},

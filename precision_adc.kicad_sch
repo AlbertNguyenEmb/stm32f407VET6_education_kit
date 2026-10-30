@@ -1390,22 +1390,16 @@
 		(uuid "0f02d55f-9c5b-4aab-8eee-dba4ccaa54a8")
 	)
 	(junction
-		(at 54.61 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13c47085-a80e-4a09-98ee-8117f597288b")
-	)
-	(junction
-		(at 55.88 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aed8297-6f55-43d7-af63-7c4efb2b73e9")
-	)
-	(junction
 		(at 156.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48c7bf13-b34e-4d05-afcd-2c80d2bcc5cb")
+	)
+	(junction
+		(at 54.61 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c12c6b0-9f3a-4b53-9e05-ff01a63e5c74")
 	)
 	(junction
 		(at 109.22 82.55)
@@ -1418,6 +1412,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a00bc24-9efa-4166-bbe4-825fc686ab78")
+	)
+	(junction
+		(at 55.88 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff7aa05-e343-4d0e-b84e-f00ab5e17609")
 	)
 	(junction
 		(at 57.15 72.39)
@@ -1438,6 +1438,16 @@
 	(no_connect
 		(at 91.44 73.66)
 		(uuid "a5025ee6-12fc-4b39-8fba-852abd3acb8b")
+	)
+	(wire
+		(pts
+			(xy 27.94 137.16) (xy 39.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b56b55-828d-4c66-8a27-63bfc5703a79")
 	)
 	(wire
 		(pts
@@ -1531,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 107.95) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364bfade-3fcb-45e3-8d98-d22c66009442")
+	)
+	(wire
+		(pts
 			(xy 86.36 60.96) (xy 91.44 60.96)
 		)
 		(stroke
@@ -1621,6 +1641,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 137.16) (xy 55.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d0f741-d972-45d3-9b96-97d6bae31846")
+	)
+	(wire
+		(pts
 			(xy 111.76 82.55) (xy 109.22 82.55)
 		)
 		(stroke
@@ -1641,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 107.95) (xy 36.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76673f79-78b4-41e0-aee1-0a8c36d2e5a2")
+	)
+	(wire
+		(pts
 			(xy 156.21 66.04) (xy 162.56 66.04)
 		)
 		(stroke
@@ -1658,16 +1698,6 @@
 			(type default)
 		)
 		(uuid "77d2f8ca-0e00-4dd6-9054-011a99c095bf")
-	)
-	(wire
-		(pts
-			(xy 27.94 137.16) (xy 55.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77de3446-cbd8-40c9-b92f-5a940c3c2601")
 	)
 	(wire
 		(pts
@@ -1918,16 +1948,6 @@
 			(type default)
 		)
 		(uuid "e1d857d0-65dc-4536-a41b-bb0d2df6bcfd")
-	)
-	(wire
-		(pts
-			(xy 26.67 107.95) (xy 54.61 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f6da29-5ec0-4635-b810-bac3a193944a")
 	)
 	(wire
 		(pts
@@ -2262,6 +2282,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 43.18 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0202b8ee-0aa8-43dd-81bd-46c003466949")
+		(property "Reference" "R47"
+			(at 43.18 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 43.18 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "662744cd-fb24-4a40-8b2b-0ca96ee7996e")
+		)
+		(pin "1"
+			(uuid "fc1b9e0d-6acd-483e-a98f-7d5b851ce721")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/8b4d1392-c809-45db-838e-c8c0a98570bf"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 109.22 45.72 0)
 		(unit 1)
@@ -2583,6 +2683,86 @@
 			(project "STM32F407VET6_Minimum_System"
 				(path "/8b4d1392-c809-45db-838e-c8c0a98570bf"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "491cc07d-43b8-40a5-8473-9ea5262b973d")
+		(property "Reference" "R46"
+			(at 40.64 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 40.64 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ea477118-37b1-4e1f-aec8-098e94c8431e")
+		)
+		(pin "1"
+			(uuid "97a83891-05fe-43b4-8ca0-126b8d36ee4d")
+		)
+		(instances
+			(project "STM32F407VET6_Minimum_System"
+				(path "/8b4d1392-c809-45db-838e-c8c0a98570bf"
+					(reference "R46")
 					(unit 1)
 				)
 			)
