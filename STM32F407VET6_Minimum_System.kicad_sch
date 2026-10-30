@@ -3991,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24743a64-f44e-42de-9fca-a765625e77ef")
+	)
+	(wire
+		(pts
 			(xy 52.07 121.92) (xy 64.77 121.92)
 		)
 		(stroke
@@ -5237,6 +5247,30 @@
 			)
 		)
 	)
+	(global_label "ADC_EXT_DRDY_N"
+		(shape input)
+		(at 172.72 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09671e47-7d69-4c76-a400-5e004e626eeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.6482 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LED_1"
 		(shape input)
 		(at 172.72 78.74 180)
@@ -5722,7 +5756,7 @@
 	)
 	(global_label "SENS_SCL"
 		(shape input)
-		(at 238.76 116.84 0)
+		(at 238.76 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5732,7 +5766,7 @@
 		)
 		(uuid "72c5da23-1a4a-49f4-bb42-fda70201f546")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.1189 116.84 0)
+			(at 251.1189 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6164,7 @@
 	)
 	(global_label "SENS_SDA"
 		(shape input)
-		(at 238.76 114.3 0)
+		(at 238.76 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6140,7 +6174,7 @@
 		)
 		(uuid "d5366e0a-6d5a-406a-afef-8343ebf3cbfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.1794 114.3 0)
+			(at 251.1794 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

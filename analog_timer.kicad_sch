@@ -2391,7 +2391,7 @@
 		)
 		(uuid "dff9d86c-44df-4a37-b255-6ae3e5134416")
 	)
-	(global_label "PWM1"
+	(global_label "PWM4"
 		(shape input)
 		(at 212.09 53.34 0)
 		(fields_autoplaced yes)
@@ -2463,7 +2463,7 @@
 			)
 		)
 	)
-	(global_label "PWM1"
+	(global_label "PWM3"
 		(shape input)
 		(at 212.09 48.26 0)
 		(fields_autoplaced yes)
@@ -2487,7 +2487,7 @@
 			)
 		)
 	)
-	(global_label "PWM1"
+	(global_label "PWM2"
 		(shape input)
 		(at 212.09 43.18 0)
 		(fields_autoplaced yes)
@@ -2780,7 +2780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 55.88 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 110.49 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3178,7 +3178,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 97.79 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 43.18 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4395,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 97.79 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4476,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 110.49 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +4970,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47"
 			(at 209.042 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47"
 			(at 208.788 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
